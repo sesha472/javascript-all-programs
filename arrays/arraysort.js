@@ -3,7 +3,7 @@
 // var a=['say','jai','kumar','sesha','sai','hero','arjun','ravan'];
 // a.sort();
 // console.log(a);
-//
+// //
 // var a=[1,44,9,2]
 // a.sort();
 // console.log(a);
@@ -16,10 +16,15 @@
 //   console.log(" sai babai i love you tooo");
 // }
 // }
-var txt = "";
-var numbers = [45, 4, 9, 16, 25];
-numbers.forEach(myFunction);
 
-function myFunction(value, index, array) {
-  txt = txt + value + "<br>";
+
+var numbers = [45, 4, 9, 16, 25];
+var a=numbers.forEach((value)=> {
+  return  value+1 ;
 }
+
+
+
+// function myFunction(value, index, array) {
+//   return txt = txt + value + "<br>";
+// }
