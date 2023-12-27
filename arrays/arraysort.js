@@ -21,7 +21,8 @@
 var numbers = [45, 4, 9, 16, 25];
 var a=numbers.forEach((value)=> {
   return  value+1 ;
-}
+})
+console.log(a);
 
 
 

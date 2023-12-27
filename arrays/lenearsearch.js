@@ -1,34 +1,40 @@
 
 
 
+// let a=[7,87,4,9,6,2,3];
+// let search=6;
+//   for (let i=0; i<a.length; i++){
+//     if(a[i]==search){
+//       console.log("elemnt found in : "+i+" possition");
+//     }
+//   }
+
+// const rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+// function linearSearch(arr, elToFind) {
+//   let c=0;
+//   for (var i=0; i<arr.length; i++) {
+//     if (arr[i] == elToFind) {
+//       c++
+//       console.log(i+1);
+//     }
+//   }
+//   if(c==0){
+//     console.log("noitem found");
+//   } 
+  
+// }
+// linearSearch(rainbow, "orange");
 
 
-var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-
-function linearSearch(arr, elToFind) {
-  for (var i=0; i<arr.length; i++) {
-    if (arr[i] == elToFind) {
-      console.log(i+1);
-      return i;
-    }
-  }
-  console.log("there is no item");
-  return null;
-}
-
-linearSearch(rainbow, "greem");
-
-//
-// var a=[7,87,4,9,6,2,3];
-// var s=4;
-// var b;
+// const a=[7,87,4,9,6,2,3];
+// let s=4;
 // for(i=0; i<=a.length; i++){
 //   if (s==a[i]) {
-//     b=i;
-//     // console.log(b);
+//     console.log(i);
 //   }
 // }
-// console.log(b);
+
+
 // var a = [4,8,13,17,19,22,25,35,39,41,49,53,59,67,69,75,78,83,90,99]
 // function Search( theArray, key )
 // {
@@ -53,17 +59,17 @@ linearSearch(rainbow, "greem");
 
 
 
-// var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-//
-// function linearSearch(arr, elToFind) {
-//   for (var i=0; i<arr.length; i++) {
-//     if (arr[i] == elToFind) {
-//       return i;
-//     }
-//   } return null;
-// }
-//
-// linearSearch(rainbow, "green");
+var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+
+function linearSearch(arr, elToFind) {
+  for (var i=0; i<arr.length; i++) {
+    if (arr[i] == elToFind) {
+      return i;
+    }
+  } return null;
+}
+
+console.log(linearSearch(rainbow, "green"));//3
 
 
 // ***************old code************

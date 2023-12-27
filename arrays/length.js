@@ -37,12 +37,12 @@
 // console.log(odd-1);
 
 
-var sum=0;
-var a=[5,3,2,6,8];
-for(i=0; i<=a.length; i++){
-  sum = sum+a[i];
-}
-console.log(sum);
+// var sum=0;
+// var a=[5,3,2,6,8];
+// for(i=0; i<=a.length; i++){
+//   sum = sum+a[i];
+// }
+// console.log(sum);
 
 
 

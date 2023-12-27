@@ -1,8 +1,10 @@
-// var a =new function(ka){};
-// var b = typeof(a);
+// let a =new function(ka){};
+// let b = typeof(a);
 // console.log(Array.isArray(a));//false
 // console.log(typeof(a));//object
 // console.log(b);//object
+
+
 
 
 // const a=[5,7,3,9,36];
@@ -12,35 +14,35 @@
 
 // sorting array elemnts 
 
-// var point = [30, 200, 2, 3, 15, 10];
-// var b=point.sort((a,b)=>{return b-a});
+// let point = [30, 200, 2, 3, 15, 10];
+// let b=point.sort((a,b)=>{return b-a});
 // console.log(b);
-// var a=[3,45,767,5,4];
+// let a=[3,45,767,5,4];
 // console.log(a.sort(function(a,b){
 //   return a-b;
 // }));
 
 // console.log(x===undefined);
-//  var x=3;
+//  let x=3;
 
-// console.log(x===undefined);//throw errors let variable not hoisted 
+// console.log(x===undefined);//throw errors let letiable not hoisted 
 //  let x=3;
 
 
 //  baz(); // TypeError: baz is not a function
-//  var a="u"
-//  var b=NaN;
-//  var c=8
-//  var d=b+c;
+//  let a="u"
+//  let b=NaN;
+//  let c=8
+//  let d=b+c;
 //  console.log(d);
 //  console.log(typeof c);
 //  // console.log();
 
 
-// var stringArray = ['Blue', 'Humpback', 'Beluga'];
-// var numericStringArray = ['80', '9', '700'];
-// var numberArray = [40, 1, 5, 200];
-// var mixedNumericArray = ['80', '9', '700','p','8','a',40, 'p',79,1, 5, 200];
+// let stringArray = ['Blue', 'Humpback', 'Beluga'];
+// let numericStringArray = ['80', '9', '700'];
+// let numberArray = [40, 1, 5, 200];
+// let mixedNumericArray = ['80', '9', '700','p','8','a',40, 'p',79,1, 5, 200];
 
 // // console.log('stringArray:', stringArray.sort());//[ 'Beluga', 'Blue', 'Humpback' ]
 // // console.log('numberArray:', numberArray.sort((a,b) =>{return b-a}));
@@ -48,7 +50,7 @@
 // console.log('Sorted without a compare function:', mixedNumericArray.sort());
 // console.log('mixedNumericArray:', mixedNumericArray.sort((a,b) =>{return a-b}));
 
-// var a=[4,4,5,7];
+// let a=[4,4,5,7];
 //  let b=a.forEach((item,index)=>{console.log(item*index)});//0 4 10 21
 //  let c=a.forEach((item,index)=>{return (item*index)});
 // console.log(b);//undefined
@@ -72,12 +74,12 @@
 
 
 // const a=["sesha" , "sai" , "kumar"];
-// for (var i = 0; i < a.length; i++) {
+// for (let i = 0; i < a.length; i++) {
 //   console.log(a[i]);
 // }
 
 
-// var emp=new Object();
+// let emp=new Object();
 // emp.id=33;
 // emp.name="sai";
 // emp.salary=10000;
@@ -87,9 +89,9 @@
 
 
 
-// var a =9;
-// var b =45;
-// var s=a+b;
+// let a =9;
+// let b =45;
+// let s=a+b;
 // console.log(s);
 
 
@@ -109,8 +111,8 @@
     //  console.log(res);
 
 
-// var a=10;
-// var p=0,s=0;
+// let a=10;
+// let p=0,s=0;
 // for (i=0 ; i<=a ;i++){
 //   if(i%2==0){
 //     p=p+1;
@@ -141,15 +143,15 @@
 // console.log("\n");
 // console.log(s);
 
-//  var http = require('http');
+//  let http = require('http');
 // http.createServer(function (req, res) {
 //     res.writeHead(200, {'ContentType': 'text/plain'});
 //     res.end('Hello World!');
 // }).listen(8080);
 
 
-// var b=10;
-// var a=5;
+// let b=10;
+// let a=5;
 // for (i=0; i<=b; i++){
 //   if(i%2==0){
 //     console.log("sai babai ==> i love you anvitha");
@@ -163,7 +165,7 @@
 
 
 
-// var a =10
+// let a =10
 // for(i=0;i<=a; i++){
 //   if (i%2==0){
 //   console.log("i love you anvitha");
@@ -173,8 +175,8 @@
 // }
 
 
-// var s=0;
-// var t =0;
+// let s=0;
+// let t =0;
 // for (i=0 ; i<=10 ;i++){
 //   if((i%2)==0){
 //     s=s+1;
@@ -193,9 +195,9 @@
 
 
 // findniig total of all numbers until given number 
-// var a=10;
-// var s=0;
-// for (var i = 0; i<=a; i++){
+// let a=10;
+// let s=0;
+// for (let i = 0; i<=a; i++){
 // s+=i;
 // }
 // console.log(s);
@@ -205,7 +207,7 @@
 // usingtreditional for loop
 
 // let a=[3,7,8,4,2];
-// var s=0;
+// let s=0;
 //    for(i=0; i<a.length; i++){
 //        s += a[i]
 //    }
@@ -220,10 +222,10 @@
 
 
 // old method 
-//  var s=0;
-//  var i =0;
-//  var a=[3,7,8,4,2];
-//  var p=i+1;
+//  let s=0;
+//  let i =0;
+//  let a=[3,7,8,4,2];
+//  let p=i+1;
 //  for(i=0; i<a[p]; i++){
 //    console.log(a[i]);
 //   s=s+a[i];
@@ -237,16 +239,16 @@
 // // array mathods
 
 
-// var a=[1,2,3];
-// var b=[ 3,3,7];
-// var c = a.concat(b);
+// let a=[1,2,3];
+// let b=[ 3,3,7];
+// let c = a.concat(b);
 // console.log(c);
 
 
 //  // copyWithin    **********//
 // copies elemnts with in the array 
 
-// var e=[83,72,98,45,97,67,89];
+// let e=[83,72,98,45,97,67,89];
 // let p=e.copyWithin(1,4,6)
 // // f=e.copyWithin(2,3,5);
 // // console.log(f);
@@ -254,13 +256,13 @@
 
 
 // b=[11,12,38,4,4,6,8];
-// var d=b.copyWithin(3);//[ 11, 12, 38, 11,12, 38,  4]
+// let d=b.copyWithin(3);//[ 11, 12, 38, 11,12, 38,  4]
 // console.log(d);
 
 // // ***********     **********
 // entries
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-var f = fruits.entries();
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let f = fruits.entries();
 // console.log(f); //Array Iterator {} ->empty obj
 // for (i of f) {
 // console.log(i); //[0, 'Banana'],..like this key value pair using fo of loop
@@ -271,57 +273,62 @@ var f = fruits.entries();
 //   console.log(item); //bananna ,orange ,...-> line by line comes..like this key value pair using fo of loop
 //   }
 
-
-
 // check every elment in array pases a test or not 
-// var e=[5,3,99,91];
+// let e=[5,3,99,91];
 // function myfunction(e) {
 //   return e%2!=0;
 // }
 // f=e.every(myfunction);
 // console.log(e.every(myfunction)); //true
  
+
+
 // // in single line we can do this 
 // let res=[5,3,99,91].every(i=>(i%2)!=0) //true 
 // console.log(res);//true
 
-// var isEven = Num =>  Num % 2 === 0 ;
-//  var a = [6,2,5,8,3];
-//  var b = a.every(isEven);
+
+// let isEven = Num =>  Num % 2 === 0 ;
+//  let a = [6,2,5,8,3];
+//  let b = a.every(isEven);
 //  console.log(b);    //true
 
-// var a=[19, 50, 89, 130, 44].every(x =>(x >= 10));
+// let a=[19, 50, 89, 130, 44].every(x =>(x >= 10));
 // console.log(a); //true
 
 
-//  var d=[54,63,92,57,87]
-//  var e=[83,72,72,97,null,"h","lk"];
+//  let d=[54,63,92,57,87]
+//  let e=[83,72,72,97,null,"h","lk"];
 //  console.log(d.fill ("mackbook",2,3));
 
 
-//  ***********     **********//
+//  ***********  fill()   **********//
 
 // fill
-// var a=[2,3,9,36];
+// let a=[24,33,9,36];
 // // console.log(a.fill()); //undefined
-// console.log(a.fill(6,1)); // [ 2, 3, 6, 6 ]
-// var arr = [5,8];
+
+// console.log(a.fill(6,1)); // [ 2, 6, 6, 6 ]
+// let arr = [5,8];
 // console.log(arr.fill(4));
 
-// var arr = [1];
+// creating object with index as keys fill value as properties 
+// let arr = [1];
 // console.log(arr.fill.call({ length: 4 }, 8));
+//{0: 8, 1: 8, 2: 8, 3: 8, length: 4}
 
-// var arr=[3,4];
-// var b= arr.fill(99);
+// let arr=[3,4];
+// let b= arr.fill(99);
 // arr[0]=77;
 // console.log(arr);
 
+
 // let arr = Array(4).fill({name:"sai"})
-// console.log(arr);
-// arr[0].name="sesha"; //once chaneg name total array values wil change
-// console.log(arr);
+// console.log(arr);//array of 4 objects  [{…same key value pairs}, {…}, {…}, {…}]
+// arr[0].name="sesha"; //if one value changed  total array object values wil change
+// console.log(arr);//all values become sesha 
 // filter
-//  var age=[83,5,8,6,9,45,97]
+//  let age=[83,5,8,6,9,45,97]
 //  function even(age) {
 //    return age%2==0;
 //  }
@@ -350,22 +357,23 @@ var f = fruits.entries();
 // console.log('apple'.toLowerCase().indexOf('ap'.toLowerCase()));
 
 
-// ***********     **********//
+// ***********  finde   **********//
 
-// finde
-// var age=[7,72,12,5,2,45,97];
+// finde first elemnt in arry that pases a test return that elemnt 
+// let age=[7,1,72,12,5,2,45,97];
 // function myfunction(age){
 // return age<4;
 // }
-// console.log(age.find(myfunction));
+// console.log(age.find(myfunction));//1
+
 // console.log([7,2,3,5,79,2].find((age)=>{return(age<4);}));
-// var a=([7,2,3,5,,21,79,2].find((age)=> (age>18)));
+// let a=([7,2,3,5,,21,79,2].find((age)=> (age>18)));
 // console.log(a);
 
 // ***********     **********//
 
 // findIndex
-// var age=[3,8,72,98,5,9,45,97];
+// let age=[3,8,72,98,5,9,45,97];
 // function myfunction(age) {
 //  return age>=7;
 // }
@@ -375,7 +383,7 @@ var f = fruits.entries();
 // The flat method removes empty slots in arrays:
 
 // const arr = [1, 2, [3,,[[5]], 4]];
-// var b=arr.flat(Infinity);
+// let b=arr.flat(Infinity);
 // console.log(b);
 // const arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
 // console.log(arr4.flat(Infinity));
@@ -386,8 +394,8 @@ var f = fruits.entries();
 // console.log(arr5.flat());
 
 
-// var fruits = ["apple",6,3,,"orange", "cherry"];
-// var a=[2,3,4,5];
+// let fruits = ["apple",6,3,,"orange", "cherry"];
+// let a=[2,3,4,5];
 // fruits.forEach(function(i,k,a){console.log(i*2,k)});
 
 // function myFunction(item, index) {
@@ -396,21 +404,21 @@ var f = fruits.entries();
 // [7,9,3,2].forEach((i,k,l)=>{console.log(i,k,l)})
 
 
-// var  a =[3,4,5,1,99];
-// var c = a.includes(9);
+// let  a =[3,4,5,1,99];
+// let c = a.includes(9);
 //  console.log(c);
 
-//  var fruits = ["Banana", "Orange", "Apple", "Mango"];
-//  var n = fruits.includes("Mango");
+//  let fruits = ["Banana", "Orange", "Apple", "Mango"];
+//  let n = fruits.includes("Mango");
 // console.log(n);
 
-// var a=[8,9,3,73,2,82];
-// var s=a.indexOf(82);
+// let a=[8,9,3,73,2,82];
+// let s=a.indexOf(82);
 // console.log(s);
 
 
-// var age=[8,72,98,5,9,6,98,8,45,97];
-// var n=(function (value,index,age) {
+// let age=[8,72,98,5,9,6,98,8,45,97];
+// let n=(function (value,index,age) {
 //    console.log(age.indexOf(value)== index);
 // return 1;
 // });
@@ -418,57 +426,57 @@ var f = fruits.entries();
 // console.log(age.indexOf(98));
 
 
-//  var a= [3,4,7,98,03,56,27];
-// var b=a.indexOf(98);
+//  let a= [3,4,7,98,03,56,27];
+// let b=a.indexOf(98);
 // console.log(b);
 
 
-// var a= [8,3,7983,8,"",'@',"/", , 0];
-// var b=Array.isArray(a);
+// let a= [8,3,7983,8,"",'@',"/", , 0];
+// let b=Array.isArray(a);
 // console.log(b);
 // console.log(a.constructor);
 // console.log(typeof(a));
 
 
-// var array=['s','a','i','k','k','u','m','a','r'];
-// // var s=[3,9,6,7,7,8,5,3,7,2];
+// let array=['s','a','i','k','k','u','m','a','r'];
+// // let s=[3,9,6,7,7,8,5,3,7,2];
 // // console.log(s.lastIndexOf(3,9));
 // // console.log(array.length);
 // console.log(array.join());
 
-//  var array=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha'];
+//  let array=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha'];
 // console.log(array.lastIndexOf('sai',7));
 
 // let a=[4,6,8,4,2,5,7,4];
 // console.log(a.lastIndexOf(2,3));
 
 
-// var fruits = ["Banana", "Orange", "Apple", "Mango"];
-// var energy = fruits.join();
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let energy = fruits.join();
 // console.log(energy);
-//  var x=[8,5,8,9,3];
+//  let x=[8,5,8,9,3];
 //  console.log(x.constructor);
 //  console.log(typeof(x));
-//  var a=x.join("-");
+//  let a=x.join("-");
 //  console.log(a);
 //  console.log(typeof(a));
 //  console.log(a.constructor);
 
-// var a=['s','a','i','k','k','u','m','a','r'];
-// var b=a.pop();
+// let a=['s','a','i','k','k','u','m','a','r'];
+// let b=a.pop();
 // console.log(b);
 // console.log(a);
 // console.log(a.push("p"));
 // console.log(a);
-// var b = ["Audi", "Mazda", "BMW", "Toyota"];
-// var a=[3,4,5,6];
+// let b = ["Audi", "Mazda", "BMW", "Toyota"];
+// let a=[3,4,5,6];
 // console.log(b.valueOf());
 // console.log(b.join(","));
 // console.log(b.toString());
 
-// var  array1 = [1, 4, 9, 16,98,8];
+// let  array1 = [1, 4, 9, 16,98,8];
 // // pass a function to map
-// var a=array1.map((s)=>{return (s*2);});
+// let a=array1.map((s)=>{return (s*2);});
 // console.log(a);
 
 // // expected output: Array [2, 8, 18, 32]
@@ -482,40 +490,40 @@ var f = fruits.entries();
 
 // filter
 // [7,3,4,6,7,9,3].filter((g)=>{if(g%2==0){console.log(g);}})
-// var a=[7,3,4,6,7,9,3].filter((g)=>{return (g%2==0)});
+// let a=[7,3,4,6,7,9,3].filter((g)=>{return (g%2==0)});
 // console.log(a);
 
 // find
-// var a=[{name:"A"},
+// let a=[{name:"A"},
 //       {name:"B",age:23, fullname :function(){return this.name}},
 //        {name:"C"}];
 
-// var b=a.find((item)=>{return item.name=="B" } )
+// let b=a.find((item)=>{return item.name=="B" } )
 // console.log(b);
 
 // reduce
-// var h=[1,2,6].reduce(((i,j)=>{return i+j }),6)//firstitem,lastitem,arraylength-1,totalarry
+// let h=[1,2,6].reduce(((i,j)=>{return i+j }),6)//firstitem,lastitem,arraylength-1,totalarry
 // console.log(h);
 
-//  var a=['s','a','i'];
-//  var b=a.push('u',98);
+//  let a=['s','a','i'];
+//  let b=a.push('u',98);
 //  console.log(b);
 //  console.log(a);
-//  var c=a.pop();
+//  let c=a.pop();
 //  console.log(c);
 //  console.log(a.pop());
 //  console.log(a);
 
 
-//  var array=['sai','kumar','sesha',4,"@","&","|","1!"];
+//  let array=['sai','kumar','sesha',4,"@","&","|","1!"];
 //  console.log(array);
 // console.log(array.reverse());
 // console.log(array[2]);
 // console.log(array);
 
 
-// var  array1 = [1, 2, 3, 4];
-// var  adding = (accumulator, currentValue) => accumulator + currentValue;
+// let  array1 = [1, 2, 3, 4];
+// let  adding = (accumulator, currentValue) => accumulator + currentValue;
 
 // // 1 + 2 + 3 + 4
 // console.log(array1.reduce(adding,2));
@@ -525,46 +533,46 @@ var f = fruits.entries();
 // console.log(array1.reduce(reducer, 5));
 // expected output: 15
 
-// var numbers = [175, 50, 25];
-// var a= numbers.reduceRight(myFunc);
+// let numbers = [175, 50, 25];
+// let a= numbers.reduceRight(myFunc);
 // function myFunc(total, num) {
 //   return total - num;
 // }
 // console.log(a);
 
 
-// var array=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha'];
-// var b=array.shift();
+// let array=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha'];
+// let b=array.shift();
 // console.log(array);
 // console.log(b);
 
 
-// var a=[9,4,2,36,3,2];
-// var b= a.shift();
+// let a=[9,4,2,36,3,2];
+// let b= a.shift();
 // console.log(b);
 // console.log(a);
 
 
-// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// var citrus = fruits.slice(-2,-1);
+// let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// let citrus = fruits.slice(-2,-1);
 // console.log(citrus);
-// var a=[9,4,2,36,3,2];
-// var b= a.slice(1,2);
+// let a=[9,4,2,36,3,2];
+// let b= a.slice(1,2);
 // console.log(b);
 // console.log(a);
 // //
-// var a=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha1'];
-// var b=(a.slice(1,2));
+// let a=['sai','kumar','sesha','venkata','sai','hai','hello','sai','sesha1'];
+// let b=(a.slice(1,2));
 // console.log(a);
 // console.log(b);
 
 
-// var a=[9,4,2,36,3,2];
-// var b= a.splice(-4,1);
+// let a=[9,4,2,36,3,2];
+// let b= a.splice(-4,1);
 // console.log(b);
 // console.log(a);
 
-//  var age=[3,7,9,,2,77,31,5];
+//  let age=[3,7,9,,2,77,31,5];
 //  function myfunction(age) {
 //    return age%2==0;
 //  }
@@ -586,15 +594,15 @@ var f = fruits.entries();
 // let a=[9,4,5,3,2];
 // console.log(a.sort());
 
-// var array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
+// let array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
 // console.log(array.sort());
 
-//  var array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
-// var b=(array.splice(2,4));
+//  let array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
+// let b=(array.splice(2,4));
 // console.log(b);
 
-// var a=[33,44,55,66,77];
-// // var b =a.splice(2,3);
+// let a=[33,44,55,66,77];
+// // let b =a.splice(2,3);
 // // console.log(b);
 // // console.log(a);
 // function mynumbers(){
@@ -602,7 +610,7 @@ var f = fruits.entries();
 //   console.log(a);
 // }
 // mynumbers()
-// var b = a.splice(2,0,6,9);
+// let b = a.splice(2,0,6,9);
 // console.log(b);
 
 
@@ -614,117 +622,135 @@ var f = fruits.entries();
 
 
 
-// var b=[];
-// var a=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
-// var b=a.sort();
+// let b=[];
+// let a=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
+// let b=a.sort();
 // console.log(b);
 
-// var a= ["a","b","c","d","f","sailuamau"]
-// var f =a.toString()
+// let a= ["a","b","c","d","f","sailuamau"]
+// let f =a.toString()
 // console.log(f);
 
 
-// var array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
-// var b=array.unshift("p");
+// let array=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
+// let b=array.unshift("p");
 // console.log(array),console.log(array.sort());
 // console.log(b);
 
-// var array=['s','f','g','e'];
+// let array=['s','f','g','e'];
 // console.log(array.unshift('i'));
 
 
 // function Counter(){
-//     var counter =0;
+//     let counter =0;
 //     setTimeout(() => {
-//         var innerc=0;
+//         let innerc=0;
 //         counter +=1;
 //        console.log("couter: "+counter);
 //        setTimeout(() => {
-//            counter =+1;
+//            counter +=1;
 //            innerc +=1;
 //            console.log("counter: "+counter+" inner c: "+innerc);
 //        }, 2000);
 
         
-//     }, 5000);
+//     }, 2000);
 // }
 
 // Counter();
-// var users={id:"1",name:"sesha1",city:"hyd",state:"ap"};
-// console.log(users.constructor);
+
+
+
+// let users={id:"1",name:"sesha1",city:"hyd",state:"ap"};
+// // console.log(users.constructor());
 // console.log(typeof(users));
-//  var b= Object.keys(users);
-//  console.log(b);
+//  let b= Object.keys(users);
+//  console.log(b);//['id', 'name', 'city', 'state']
 
 
-// var a=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
-// var v= a.valueOf();
+// let a=['sai','kumar','sesha','venkata','sujatah','hai','hello','usha','sesha'];
+// console.log(typeof a); //object
+// console.log(Array.isArray(a));//true
+
+// let v= Array.valueOf(a);
 // console.log(v);
+// console.log(typeof v);
 
-// var a=[3,5,7,8,"h"];
+// let a=[3,5,7,8,"h"];
 // console.log(a.valueOf());
 
-// var a=[3,5,7,8];
+// let a=[3,5,7,8];
 // console.log(a[2]);
 
-// var fruits = [6,9,2,3];
-// var f = fruits.keys();
-// for (var s of f) {
-//   console.log(s);
+// let fruits = [6,9,2,3];
+// let f = fruits.keys();
+// console.log(f);
+// for (let s of f) {
+//   console.log(s); //0,1,2,3
+// }
+
+// let fruits = [6,9,2,3];
+// let f = fruits.values();
+// console.log(f);
+// for (let s of f) {
+//   console.log(s); //6,9,2,3
 // }
 
 
-
-// var sum=0;
-// var age=[8,72,98,5,9,45,97];
+// let sum=0;
+// let age=[8,72,98,5,9,45,97];
 // function myfunction(age) {
 //   return sum+=age;
 // }
 // console.log(age.forEach(sum));
 
 
-// var sai=[
-//       {name :'sesha',
-//          hight : 5.6,
-//          age: 25,
-//           weight: 60,
-//         colour: "whight"
-//       },
-//         {
-//         name :"sesha",
-//         hight: 5,
-//         age: 26,
-//         weight:65,
-//         colour:"blue"
-//         },
-//         {
-//   name:"sai",
-//   hight:6,
-//   age:27,
-//   weight:66,
-//   colour:"skyblur"
-// }]
-//       for ( i = 0; i < sai.length; i++) {
-//       // if (sai[i].colour=="skyblur") {
-//         console.log(sai[i].hight+","+sai[i].age);
-//       }
-//       }
 
-// var d= new Date();
-// // var n= d.getHours();
-// // var c=d.getFullYear();
-// // console.log(n,c);
+
+
+// let sai = [
+//   { name: "sesha", hight: 5.6, age: 25, weight: 60, colour: "whight" },
+//   {
+//     name: "sesha",
+//     hight: 5,
+//     age: 26,
+//     weight: 65,
+//     colour: "blue",
+//   },
+//   {
+//     name: "sai",
+//     hight: 6,
+//     age: 27,
+//     weight: 66,
+//     colour: "skyblue",
+//   },
+// ];
+      // for ( i = 0; i < sai.length; i++) {
+      // // if (sai[i].colour=="skyblue") {
+      //   console.log("height :"+sai[i].hight+" ; "+"age is :"+sai[i].age);
+      // }
+
+      // // new way 
+      // let res=sai.filter((item)=>item.colour =="blue");
+      //        console.log("height :"+res[0].hight+" ; "+"age is :"+res[0].age);
+
+      
+
+// let d= new Date();
 // console.log(d.getHours());
+// console.log(d.getMinutes());
+// console.log(d.getSeconds());
 
 
-// var sai="ivanika is coming from the us and she is look damn";
+
+// let sai="ivanika is coming from the us and she is look damn";
 // console.log(sai.replace((/is/gi,"hai")));
 
 
 // function mul(n){
-// var x=0;
+// let x=0;
 //  for(i=1;i<=n;i++){
-//   var y=n*(n+1);
+//   let y=n*(n+1);
 //     x=y+x;
 // }
 //   console.log(y);
@@ -732,63 +758,62 @@ var f = fruits.entries();
 // }
 // mul(4)
 // function num(n){
-//   var s=[];
+//   let s=[];
 //   for(i=1; i<=n; i++){
-//    var y=s.reduce((a,b)=>{return a+b});
+//    let y=s.reduce((a,b)=>{return a+b});
 //     }
 //   }
 // }
 
-// var a=[2,4,3,8,9,10];
-// function even(a){
-//   return a%2==0;
-// }
-// var b=a.filter(even);
+
+// let a=[1,2,3,4,5];
+// let b=a.join("");
+// console.log( b);
+// console.log( typeof b);
+// console.log(a.splice(2,1,4)); //3
+// console.log(a);//[1, 2, 4, 4, 5]
+
+
+// let a=[3,2,4,5,7,8,1,9];
+// let b=a.toString();
 // console.log(b);
+// let c= a.fill(6,0,1);
+// console.log(c);
+// let d=a.slice(3,6);
+// console.log(d);
 
 
-// var a=[1,2,3,4,5];
-// var b=a.join("111");
-// console.log(b);
-// console.log(a.splice());
 
 
-// var a=[3,2,4,5,7,8,1,9];
-// var b=a.toString();
-// var b= a.fill(6,0,1);
-// var b=a.slice(1,3);
-// console.log();
-
-
-// var a=["a","b","c","d"];
-// var b=a.reduce((a,b)=>{
+// let a=["a","b","c","d"];
+// let b=a.reducer((a,b)=>{
 //   return a+b;
 // });
-// var t= typeof(b)
+
 // console.log(b);
 
 // Array.prototype.myUcase = function() {
-//   var i;
+//   let i;
 //   for (i = 0; i < this.length; i++) {
 //     this[i] = this[i].toUpperCase();
 //   }
 // };
 
 // function myFunction() {
-//   var fruits = ["hyd","bangalore","ap","tn"]
+//   let fruits = ["hyd","bangalore","ap","tn"]
 //   fruits.myUcase();
 //   console.log(fruits);
 // }
 // myFunction()
 
 
-// var arr=new Array ("sai","kumar","super");
+// let arr=new Array ("sai","kumar","super");
 // for(i=0; i<arr.length;i++){
 //   console.log(arr[i]);
 // }
 
 
-// var http = require('http');
+// let http = require('http');
 // http.createServer(function (req, res) {
 //     res.writeHead(200, {'Content-Type': 'text/plain'});
 //     res.end('Hello World!');

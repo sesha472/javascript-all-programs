@@ -1,22 +1,22 @@
 
-var sum=0;
-var a=[5,3,2,6,8,9,26,8,65];
-for(i=0; i<a.length; i++){
-  sum = sum+a[i];
-}
-console.log(i);
-//
-// var b=0,c=0;
-// var a=[2,38,09,2,9,2];
+// var sum=0;
+// var a=[5,3,2,6,8,9,26,8,65];
 // for(i=0; i<a.length; i++){
-//   for( j=i+1; j< a.length; j++){
-//     if( a[i] == a[j]){
-//           c++;
-//       console.log(c);
-//      }
-//    }
+//   sum = sum+a[i];
 // }
-// console.log(b);
+// console.log(i);
+//
+var b=0,c=0;
+var a=[2,38,9,2,9,2];
+for(i=0; i<a.length; i++){
+  for( j=i+1; j< a.length; j++){
+    if( a[i] == a[j]){
+          c++;
+      console.log(c);
+     }
+   }
+}
+console.log(b);
 
 //
 //   function linearsearch(array,search){
