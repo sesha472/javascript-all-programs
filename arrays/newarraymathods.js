@@ -166,7 +166,7 @@ const name = 'German Cutraro',
     favLang = 'Javascript';
 
 const me = {
-  name,
+  
   birthday,
   country,
   favSong,
