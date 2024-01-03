@@ -127,26 +127,27 @@
 // console.log(sum);
 
 
-let people = [
-  { name: 'Alice', age: 21 },
-  { name: 'Max', age: 20 },
-  { name: 'Jane', age: 20 }
-];
+// let people = [
+//   { name: 'Alice', age: 21 },
+//   { name: 'Max', age: 20 },
+//   { name: 'Jane', age: 20 }
+// ];
 
-function groupBy(objectArray, property) {
-  return objectArray.reduce(function (acc, obj) {
-    let key = obj[property]
-    if (!acc[key]) {
-      acc[key] = []
-    }
-    acc[key].push(obj)
-    return acc
-  }, {})
-}
+// function groupBy(objectArray, property) {
+//   return objectArray.reduce(function (acc, obj) {
+//     let key = obj[property]
+//     if (!acc[key]) {
+//       acc[key] = []
+//     }
+//     acc[key].push(obj)
+//     return acc
+//   }, {})
+// }
 
-let groupedPeople = groupBy(people, "name")
+// let groupedPeople = groupBy(people, "name")
+// console.log(groupedPeople);
 
-console.log(groupedPeople);
+
 // var a=[9,5,3,53,45,23,78];
 // function even(a) {
 //   return a!=9;
@@ -154,3 +155,24 @@ console.log(groupedPeople);
 // console.log(a.findIndex(even));
 // var a = Array.from("saikumar is manchi boy and he is doing manchi pani")
 // console.log(a);
+
+const names = ['German', 'Nicolas', 'Martin', 'Micaela', 'Mateo', 'Matias', 'John', 'Gonzalo', 'Esteban', 'Paula', 'Victoria', 'Bautista', 'Carolina', 'Analia', 'Edward', 'Mirtha'];
+const foo = names.filter((name) => name.toUpperCase().startsWith('M'));
+console.log(foo);
+const name = 'German Cutraro',
+    birthday = '15-09-1999'
+    country = 'Argentina',
+    favSong = 'I Wish you were here, Pink Floyd',
+    favLang = 'Javascript';
+
+const me = {
+  name,
+  birthday,
+  country,
+  favSong,
+  favLang
+};
+
+for (let index in me) {
+    console.log(me[index]);
+}
